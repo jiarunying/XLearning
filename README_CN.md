@@ -165,7 +165,7 @@ ps-cores | parameterServer使用CPU核数为2
 
 ## 联系我们
 Mail： <g-xlearning-dev@360.cn>     
-QQ群：588356340
+QQ群：588356340  
 ![qq](./doc/img/qq.jpg)
 
 
