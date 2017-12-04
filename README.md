@@ -150,7 +150,7 @@ ps-num | number of ps containers to use for the application is 1
 ps-cores | number of cores to use for the ps process is 2  
 
 
-For more details, set the [Submit Parameter](./doc/submit.md) part。  
+For more details, set the [**Submit Parameter**](./doc/submit.md) part。  
 
 
 ## FAQ
