@@ -11,14 +11,11 @@
 
 **XLearning** is a convenient and efficient scheduling platform combined with the big data and artificial intelligence, support for a variety of machine learning, deep learning frameworks. XLearning is running on the Hadoop Yarn and has integrated deep learning frameworks such as TensorFlow, MXNet, Caffe, Theano, PyTorch, Keras, XGBoost. XLearning has the satisfactory scalability and compatibility.
 
-<br>
-[**中文文档**](./README_CN.md)
+[**中文文档**](./README_CN.md)  
 
-<br>
 
 ## Architecture
-![architecture](./doc/img/xlearning.png)
-<br>
+![architecture](./doc/img/xlearning.png)  
 There are three essential components in XLearning:  
 
 - **Client**: start and get the state of the application.  
