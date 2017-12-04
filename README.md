@@ -11,7 +11,6 @@
 
 **XLearning** is a convenient and efficient scheduling platform combined with the big data and artificial intelligence, support for a variety of machine learning, deep learning frameworks. XLearning is running on the Hadoop Yarn and has integrated deep learning frameworks such as TensorFlow, MXNet, Caffe, Theano, PyTorch, Keras, XGBoost. XLearning has the satisfactory scalability and compatibility.
 
-<br/>
 [**中文文档**](./README_CN.md)  
 
 
@@ -41,7 +40,6 @@ Similar with the read strategy, XLearning allows to specify the output strategy 
 - **Upload**: After the program finished, each worker upload the local directory of the output to specified HDFS path directly. The button, "Saved Model", on the web interface allows user to upload the intermediate result to remote during the execution.  
 - **OutputFormat**: Integrated the OutputFormat function of MapReduce, XLearning allows the user to specify any of the implementation of OutputFormat for saving the result to HDFS.    
 
-<br>
 
 ### 3 Visualization Display  
 The application interface can be divided into three parts:  
@@ -49,16 +47,14 @@ The application interface can be divided into three parts:
 - **All Containers**：display the container list and corresponding information, including the container host, container role, current state of container, start time, finish time, current progress.
 - **View TensorBoard**：If set to start the service of TensorBoard when the type of application is TensorFlow, provide the link to enter the TensorBoard for real-time view.  
 - **Save Model**：If the application has the output, user can upload the intermediate output to specified HDFS path during the execution of the application through the button of "Save Model". After the upload finished, display the list of the intermediate saved path.   
-As shown below:  
-<br>
+As shown below:   
 
 ![yarn1](./doc/img/yarn1.jpg) 
 
-<br>
+
 ### 4 Compatible With The Code At Native Frameworks  
 Except the automatic construction of the ClusterSpec at the distributed mode TensorFlow framework, the program at standalone mode TensorFlow and other deep learning frameworks can be executed at XLearning directly.  
 
-<br>
 
 ## Compilation & Deployment Instructions
 
@@ -70,9 +66,9 @@ Except the automatic construction of the ClusterSpec at the distributed mode Ten
 ### 2 Compilation Method 
 
 Run the following command in the root directory of the source code:  
-<br>
+
 `mvn package`    
-<br>
+
 After compiling, a distribution package named `xlearning-1.0-dist.tar.gz` will be generated under `target` in the root directory.   
 Unpacking the distribution package, the following subdirectories will be generated under the root directory:
 
@@ -82,6 +78,7 @@ Unpacking the distribution package, the following subdirectories will be generat
 - sbin: scripts for history service  
 - data: data and files for examples
 - examples: XLearning examples
+
 
 ### 3 Deployment Environment Requirements  
 
@@ -101,13 +98,12 @@ Under the "conf" directory of the unpacking distribution package "$XLEARNING_HOM
 - xlearning-site.xml: configure related properties. Note that the properties associated with the history service needs to be consistent with what has configured when the history service started.For more details, please see the [**Configuration**](./doc/configure.md) part。  
   
 - log4j.properties：configure the log level  
-<br>
+
 
 ### 5 Start Method of XLearning History Service    
 
 - run `$XLEARNING_HOME/sbin/start-history-server.sh`.  
 
-<br>
 
 ## Quick Start
 
@@ -156,16 +152,13 @@ ps-cores | number of cores to use for the ps process is 2
 
 For more details, set the [Submit Parameter](./doc/submit.md) part。  
 
-<br>
 
 ## FAQ
 [**XLearning FAQ**](./doc/faq.md)
 
-<br>
 
 ## Contact us
 Mail： <g-xlearning-dev@360.cn>     
 QQ群：588356340  
 ![qq](./doc/img/qq.jpg)
 
-<br>
