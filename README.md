@@ -11,6 +11,7 @@
 
 **XLearning** is a convenient and efficient scheduling platform combined with the big data and artificial intelligence, support for a variety of machine learning, deep learning frameworks. XLearning is running on the Hadoop Yarn and has integrated deep learning frameworks such as TensorFlow, MXNet, Caffe, Theano, PyTorch, Keras, XGBoost. XLearning has the satisfactory scalability and compatibility.
 
+<br/>
 [**中文文档**](./README_CN.md)  
 
 
@@ -20,15 +21,13 @@ There are three essential components in XLearning:
 
 - **Client**: start and get the state of the application.  
 - **ApplicationMaster(AM)**: the role for the internal schedule and lifecycle manager, including the input data distribution and containers management.  
-- **Container**: the actual executor of the application to start the progress of Worker or PS(Parameter Server), monitor and report the status of the progress to AM, and save the output, especially start the TensorBoard service for TensorFlow application.
+- **Container**: the actual executor of the application to start the progress of Worker or PS(Parameter Server), monitor and report the status of the progress to AM, and save the output, especially start the TensorBoard service for TensorFlow application.  
 
-<br>
 
 ## Functions
 ### 1 Support Multiple Deep Learning Frameworks  
 Besides the distributed mode of TensorFlow and MXNet frameworks, XLearning supports the standalone mode of all deep learning frameworks such as Caffe, Theano, PyTorch. Moreover, XLearning allows the custom versions and multi-version of frameworks flexibly.  
 
-<br>
 
 ### 2 Unified Data Management Based On HDFS  
 XLearning is enable to specify the input strategy for the input data `--input` by setting the `--input-strategy` parameter or `xlearning.input.strategy` configuration. XLearning support three ways to read the HDFS input data:  
