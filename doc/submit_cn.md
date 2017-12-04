@@ -1,7 +1,7 @@
 ## 运行提交参数
-<br>
+
 [**English Document**](./submit.md)
-<br>
+
 在XLearning客户端，使用`$XLEARNING_HOME/bin/xl-submit`命令，将作业提交至Yarn集群进行调度执行。提交命令使用说明请见[README运行示例](../README_CN.md)部分，详细提交参数说明如下：
 
 参数名称 | 含义  

@@ -1,7 +1,7 @@
 ## Submit Parameter
-<br>
+
 [**中文文档**](./submit_cn.md)
-<br>
+
 Using the command `$XLEARNING_HOME/bin/xl-submit` to submit the application to Cluster at the XLearning client. Please see the example in the part of [README Quick Start](../README.md). The following is more details of the parameter.
 
 Property Name | Meaning  
