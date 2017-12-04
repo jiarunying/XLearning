@@ -13,6 +13,7 @@
 
 <br>
 [**中文文档**](./README_CN.md)
+
 <br>
 
 ## Architecture
@@ -31,6 +32,7 @@ There are three essential components in XLearning:
 Besides the distributed mode of TensorFlow and MXNet frameworks, XLearning supports the standalone mode of all deep learning frameworks such as Caffe, Theano, PyTorch. Moreover, XLearning allows the custom versions and multi-version of frameworks flexibly.  
 
 <br>
+
 ### 2 Unified Data Management Based On HDFS  
 XLearning is enable to specify the input strategy for the input data `--input` by setting the `--input-strategy` parameter or `xlearning.input.strategy` configuration. XLearning support three ways to read the HDFS input data:  
 
@@ -44,6 +46,7 @@ Similar with the read strategy, XLearning allows to specify the output strategy 
 - **OutputFormat**: Integrated the OutputFormat function of MapReduce, XLearning allows the user to specify any of the implementation of OutputFormat for saving the result to HDFS.    
 
 <br>
+
 ### 3 Visualization Display  
 The application interface can be divided into three parts:  
 
@@ -52,6 +55,7 @@ The application interface can be divided into three parts:
 - **Save Model**：If the application has the output, user can upload the intermediate output to specified HDFS path during the execution of the application through the button of "Save Model". After the upload finished, display the list of the intermediate saved path.   
 As shown below:  
 <br>
+
 ![yarn1](./doc/img/yarn1.jpg) 
 
 <br>
