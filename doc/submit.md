@@ -16,27 +16,21 @@ cacheFile | the required files in the HDFS path
 launch-cmd | execute command  
 user-path | the append for the environment variable $PATH
 conf | set the configuration  
-  |  
 am-cores | number of cores to use for the AM process, default as the configure of xlearning.am.cores  
 am-memory | amount of memory to use for the AM process (in MB)，default as the configure of xlearning.am.memory  
-  |  
 ps-num | number of ps containers to use for the application, default as the configure of xlearning.ps.num  
 ps-cores | number of cores to use for the ps process, default as the configure of xlearning.ps.cores  
 ps-memory | amount of memory to use for the ps process (in MB), default as the configure of xlearning.ps.memory  
-  |  
 worker-num | number of worker containers to use for the application, default as the configure of xlearning.worker.num  
 worker-cores | number of cores to use for the worker process, default as the configure of xlearning.worker.cores  
 worker-memory | amount of memory to use for the worker process(in MB), default as the configure of xlearning.worker.memory  
-  |  
 queue | the queue of application submitted to, default as the configure of xlearning.app.queue  
 priority | the priority of application, default as the configure of xlearning.app.priority  
-  |  
 board-enable | whether to start the service of TensorBoard, default as the configure of xlearning.tf.board.enable  
 board-index | specify the index of worker which start the TensorBoard, default as the configure of xlearning.tf.board.worker.index  
 board-logdir | the directory save TensorBoard event log, default as the configure of xlearning.tf.board.log.dir  
 board-reloadinterval | how often the backend should load more data of event log, default as the configure of xlearning.tf.board.reload.interval  
 board-historydir | specify the HDFS path which the TensorBoard event log upload to, default as the configure of xlearning.tf.board.history.dir
-  |  
 input-strategy | the strategy of the input file, default as the configure of xlearning.input.strategy  
 inRenameInputFile | whether to rename the download file when input-strategy is "DOWNLOAD", default as the configure of xlearning.inputfile.rename  
 stream-epoch | specify the epoch num of the input file read when input-strategy is "STREAM", default as the configure of xlearning.stream.epoch  
